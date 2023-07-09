@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Add styles for the top navbar */
+    #top-navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 16px;
+    }
+    
+    /* Add styles for the side navbar */
+    #side-navbar {
+      width: 200px;
+      background-color: #f1f1f1;
+      height: calc(100vh - 50px); /* Adjust the height based on the height of the top navbar */
+      position: fixed;
+      top: 70px; /* Set the top position to the height of the top navbar */
+      left: 0;
+    }
+    
+    /* Add styles for the sidebar links */
+    #side-navbar a {
+      display: block;
+      padding: 17px;
+      text-decoration: none;
+      color: #000;
+    }
+    
+    /* Change the background color of the sidebar links on hover */
+    #side-navbar a:hover {
+      background-color: #ddd;
+    }
+    
+    /* Add a style for the active sidebar link */
+    #side-navbar a.active {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+    
+    /* Add some padding for the content */
+    #content {
+      margin-left: 200px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="top-navbar">
+    <h1>Top Navbar</h1>
+  </div>
+
+  <div id="side-navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <div id="content">
+    <h1>Welcome to my website</h1>
+    <p>This is the content of my website.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+#nav {
+    background-color: #ed3529;
+    height: 80px;
+}
+
+.nav-item {
+    padding-right: 30px;
+    color: #fff;
+    font-family: 'Comic Neue';
+    font-weight: 500;
+}
+
+.navbar-brand {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+#cklogo {
+    width: 90%;
+    height: 60px;
+}
+
+#main {
+    background-image: url('ck_bg.png');
+    background-attachment: fixed;
+}
+
+#llogo {
+    height: 100%;
+    width: 90px;
+}
+
+#desc {
+    font-family: 'Comic Neue';
+    font-weight: bold;
+}
+
+#visiont, #missiont {
+    font-family: 'Comic Neue';
+    font-weight: bold;
+    color: #ed3529;
+}
+
+.vision, .mission {
+    margin-left: 20px;
+}
+
+.vision {
+    display: inline-block;
+}
+
+.corporate_values {
+    background-color: white;
+}
+
+#corpval {
+    text-align: center;
+    font-family: 'Comic Neue';
+}
+
+.container {
+    display: flex;
+}
+
+.child {
+    padding-right: 70px;
+    padding-bottom: 4%;
+    padding-left: 13%;
+}
+
+hr {
+    width: 80%;
+}
+
+
+
+footer {
+    background-color: #333333;
+}
+
+#cprt {
+    padding-top: 2%;
+    color: white;
+}
+
+#foot {
+    display: inline-flex;
+    padding-top: 2%;
+}
+
+.mainp {
+    background-image: url('white_tile_bg.png');
+    background-attachment: fixed;
+    padding-top: 2%;
+}
+
+#cprt, #fb, #twitter, #insta {
+    padding-left: 10%;
+}
+
+#educpurp {
+    color: white;
+    display: inline-flex;
+    padding-left: 6%;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-item {
+        float: right;
+        display: block;
+    }
+}

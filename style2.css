@@ -1,0 +1,33 @@
+#side-navbar {
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 111.5%; /* Adjust the height based on the height of the top navbar */
+  position: absolute;
+  top: 80px; /* Set the top position to the height of the top navbar */
+  left: 0;
+}
+
+/* Add styles for the sidebar links */
+#side-navbar a {
+  display: block;
+  padding: 17px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Change the background color of the sidebar links on hover */
+#side-navbar a:hover {
+  background-color: #ddd;
+}
+
+/* Add a style for the active sidebar link */
+#side-navbar a.active {
+  background-color: #ed3529;
+  color: #fff;
+}
+
+/* Add some padding for the content */
+#content {
+  margin-left: 180px;
+  padding: 20px;
+}
